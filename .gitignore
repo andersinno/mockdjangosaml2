@@ -40,3 +40,5 @@ dist
 build
 _build
 *.pydevproject
+venv
+.vscode

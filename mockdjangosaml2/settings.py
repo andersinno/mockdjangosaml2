@@ -18,6 +18,7 @@ MOCK_SAML2_USERS = getattr(settings, 'MOCK_SAML2_USERS', {
                 'mail': ['admin.surname@aai-test.hr'],
                 'givenName': ['Admin']
             },
+            'issuer': '',
         },
     },
     'employee@aai-test.hr': {
@@ -33,6 +34,7 @@ MOCK_SAML2_USERS = getattr(settings, 'MOCK_SAML2_USERS', {
                 'mail': ['employee.surname@aai-test.hr'],
                 'givenName': ['Employee']
             },
+            'issuer': '',
         },
     },
     'student@aai-test.hr': {
@@ -48,6 +50,7 @@ MOCK_SAML2_USERS = getattr(settings, 'MOCK_SAML2_USERS', {
                 'mail': ['student.surname@aai-test.hr'],
                 'givenName': ['Student']
             },
+            'issuer': ''
         },
     },
 }
